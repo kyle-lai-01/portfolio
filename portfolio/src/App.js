@@ -1,17 +1,16 @@
 import React from 'react';
 import './App.css';
 import TerminalScreen from './components/TerminalScreen.js'
-import Navbar from './components/Navbar.js'
+import Navigation from './components/Navigation/Navigation.js'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
 
-
-
-
   return (
     <div>
-      <Navbar />
-      <div style={{ height: "500px", position: 'fixed', width: '100%', zIndex: '-1' }}>
+      <Navigation />
+      <div style={{ height: "100rem", position: 'fixed', width: '100%', zIndex: '-1', marginTop: '6rem' }}>
         <TerminalScreen />
       </div>
 
