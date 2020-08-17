@@ -11,7 +11,7 @@ function TerminalScreen() {
       delay: 80
     },
     {
-      text: '✔ Hello! I\'m Kyle. Welcome to my site! ',
+      text: '✔ Hello! I\'m Kyle Lai. Welcome to my site! ',
       cmd: false,
       repeat: false,
       frames: spinner.map(function (spinner) {

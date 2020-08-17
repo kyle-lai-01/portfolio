@@ -1,0 +1,17 @@
+.projects-container {
+  margin-top: 5rem;
+}
+
+
+.projects-heading {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 4rem;
+  padding-top: 5rem;
+}
+
+.projects-intro {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}

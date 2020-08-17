@@ -6,7 +6,7 @@ import { IconButton } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
-
+import Resume from './../Resume/Resume.pdf';
 
 function Navigation() {
   return (
@@ -18,7 +18,7 @@ function Navigation() {
         <Nav.Link href="#" style={{ fontSize: '1.5rem' }}>Projects</Nav.Link>
       </Nav>
 
-      <Nav.Link href="https://github.com/kyle-lai-01">
+      <Nav.Link href="https://github.com/kyle-lai-01" rel="noopener noreferrer" target="_blank">
         <IconButton>
           <GitHubIcon
             style={{
@@ -27,7 +27,7 @@ function Navigation() {
             }} />
         </IconButton>
       </Nav.Link>
-      <Nav.Link href="https://linkedin.com/in/klai01">
+      <Nav.Link href="https://linkedin.com/in/klai01" rel="noopener noreferrer" target="_blank">
         <IconButton>
           <LinkedInIcon
             style={{
@@ -36,7 +36,7 @@ function Navigation() {
             }} />
         </IconButton>
       </Nav.Link>
-      <Nav.Link href="/">
+      <Nav.Link href={Resume} download='KyleLaiResume.pdf' rel="noopener noreferrer" target="_blank">
         <IconButton>
           <FileCopyIcon
             style={{

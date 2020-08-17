@@ -5,7 +5,7 @@ import Navigation from './components/Navigation/Navigation.js'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
 import About from './components/About/About.js';
-
+import Projects from './components/Projects/Projects.js'
 
 function App() {
 
@@ -18,9 +18,12 @@ function App() {
 
 
       <div className='content'>
-
-        <About />
-
+        <div className='about-section'>
+          <About />
+        </div>
+        <div className='projects-section'>
+          <Projects />
+        </div>
 
       </div>
 
