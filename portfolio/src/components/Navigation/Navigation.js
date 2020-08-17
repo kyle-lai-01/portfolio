@@ -10,12 +10,12 @@ import FileCopyIcon from '@material-ui/icons/FileCopy';
 
 function Navigation() {
   return (
-    <Navbar bg="dark" variant="dark" fixed="top">
-      <Navbar.Brand href="#home">Kyle Lai</Navbar.Brand>
+    <Navbar style={{ backgroundColor: '#264195' }} variant="dark" fixed="top">
+      <Navbar.Brand href="#home" style={{ fontSize: '1.5rem' }}>Kyle Lai</Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="#">Home</Nav.Link>
-        <Nav.Link href="#">About</Nav.Link>
-        <Nav.Link href="#">Projects</Nav.Link>
+        <Nav.Link href="#" style={{ fontSize: '1.5rem' }}>Home</Nav.Link>
+        <Nav.Link href="#" style={{ fontSize: '1.5rem' }}>About</Nav.Link>
+        <Nav.Link href="#" style={{ fontSize: '1.5rem' }}>Projects</Nav.Link>
       </Nav>
 
       <Nav.Link href="/">

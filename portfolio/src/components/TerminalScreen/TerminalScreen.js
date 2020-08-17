@@ -47,7 +47,7 @@ function TerminalScreen() {
       delay: 80
     },
     {
-      text: 'Scroll below to find out more about me!',
+      text: 'Find out more about me below or email me at kl655@cornell.edu',
       cmd: false,
       delay: 200
     },
