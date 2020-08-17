@@ -8,6 +8,9 @@ function About() {
   return (
     <Container className='h1 about-container'>
       <h1 className='about-heading'>About</h1>
+      <p>
+        Hi, I'm Kyle.
+      </p>
     </Container>
 
 

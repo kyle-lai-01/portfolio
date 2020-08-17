@@ -11,12 +11,12 @@ function TerminalScreen() {
       delay: 80
     },
     {
-      text: '✔ Hello! My name is Kyle Lai. Welcome to my site! ',
+      text: '✔ Hello! I\'m Kyle. Welcome to my site! ',
       cmd: false,
       repeat: false,
       frames: spinner.map(function (spinner) {
         return {
-          text: spinner + ' Loading website',
+          text: spinner + ' Loading info',
           delay: 150
         }
       })
@@ -47,7 +47,7 @@ function TerminalScreen() {
       delay: 80
     },
     {
-      text: 'Find out more about me below or email me at kl655@cornell.edu',
+      text: 'Learn more about what I do below!',
       cmd: false,
       delay: 200
     },

@@ -18,7 +18,7 @@ function Navigation() {
         <Nav.Link href="#" style={{ fontSize: '1.5rem' }}>Projects</Nav.Link>
       </Nav>
 
-      <Nav.Link href="/">
+      <Nav.Link href="https://github.com/kyle-lai-01">
         <IconButton>
           <GitHubIcon
             style={{
@@ -27,7 +27,7 @@ function Navigation() {
             }} />
         </IconButton>
       </Nav.Link>
-      <Nav.Link href="/">
+      <Nav.Link href="https://linkedin.com/in/klai01">
         <IconButton>
           <LinkedInIcon
             style={{
