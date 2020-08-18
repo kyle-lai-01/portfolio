@@ -17,7 +17,7 @@ function App() {
       </div>
 
 
-      <div className='content'>
+      <div className='page-content'>
         <div className='about-section'>
           <About />
         </div>

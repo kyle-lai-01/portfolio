@@ -1,9 +1,11 @@
 import React from 'react';
 import Terminal from 'react-animated-term'
 import 'react-animated-term/dist/react-animated-term.css'
+import { ListItemSecondaryAction } from '@material-ui/core';
 
 function TerminalScreen() {
-  const spinner = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
+  const spinner = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦']
+  const load = ['.', ' ']
   const termLines = [
     {
       text: 'npm start',
@@ -17,7 +19,7 @@ function TerminalScreen() {
       frames: spinner.map(function (spinner) {
         return {
           text: spinner + ' Loading info',
-          delay: 150
+          delay: 120
         }
       })
     },
@@ -47,7 +49,7 @@ function TerminalScreen() {
       delay: 80
     },
     {
-      text: 'Learn more about what I do below!',
+      text: '✔ Learn more about what I do below! Email me at kl655@cornell.edu',
       cmd: false,
       delay: 200
     },

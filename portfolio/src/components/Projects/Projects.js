@@ -2,7 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Projects.css';
 import { Container, Row, ListGroup, Nav } from 'react-bootstrap'
-import Showcase from './Showcase.js'
+import MediaRec from './Cards/MediaRec.js'
+import BudgetTracker from './Cards/BudgetTracker.js'
+import OMaskl from './Cards/OMaskl.js'
 
 function Projects() {
   return (
@@ -18,14 +20,14 @@ function Projects() {
 
 
         <ListGroup className="list-group list-group-horizontal project-showcase">
-          <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
-            <Showcase />
+          <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center', margin: 'auto' }}>
+            <MediaRec />
           </ListGroup.Item>
           <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
-            <Showcase />
+            <BudgetTracker />
           </ListGroup.Item>
           <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
-            <Showcase />
+            <OMaskl />
           </ListGroup.Item>
         </ListGroup>
       </Container>

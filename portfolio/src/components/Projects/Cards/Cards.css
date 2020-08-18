@@ -1,0 +1,21 @@
+/* .card:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+} */
+
+.title {
+  font-size: 2rem;
+}
+
+.card-list {
+  margin-top: 1rem;
+}
+
+.card-list-item {
+  margin-left: .5rem;
+  margin-right: .5rem;
+}

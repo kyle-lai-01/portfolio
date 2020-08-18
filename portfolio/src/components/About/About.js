@@ -26,6 +26,9 @@ function About() {
         <p className='about-intro'>
           Hi, I'm Kyle. I enjoy combining new technologies to create new things. I strive to always learn and share new knowledge.
         </p>
+        <p>
+          Contact me at kl655@cornell.edu
+        </p> <br />
         <ListGroup className="list-group list-group-horizontal">
           <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
             <Nav.Link href="https://github.com/kyle-lai-01" rel="noopener noreferrer" target="_blank">
