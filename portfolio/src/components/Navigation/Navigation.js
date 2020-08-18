@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Navbar, Nav, Form, FormControl } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import './Navigation.css'
 import { IconButton } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -10,7 +10,7 @@ import Resume from './../Resume/Resume.pdf';
 
 function Navigation() {
   return (
-    <Navbar style={{ backgroundColor: '#264195' }} variant="dark" fixed="top">
+    <Navbar style={{ backgroundColor: '#264195', borderBottom: 'solid' }} variant="dark" fixed="top">
       <Navbar.Brand href="#home" style={{ fontSize: '1.5rem' }}>Kyle Lai</Navbar.Brand>
       <Nav className="mr-auto">
         <Nav.Link href="#" style={{ fontSize: '1.5rem' }}>Home</Nav.Link>

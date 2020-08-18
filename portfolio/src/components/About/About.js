@@ -14,7 +14,7 @@ import { IconButton } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
-import Resume from './../Resume/Resume.pdf'
+import Resume from './../Resume/Resume.pdf';
 
 function About() {
 
@@ -22,7 +22,7 @@ function About() {
     <div>
       <Container className='h1 about-container'>
         <h1 className='about-heading'>About</h1>
-        <hr />
+        <div style={{ backgroundColor: 'black', height: '.2rem' }}></div>
         <p className='about-intro'>
           Hi, I'm Kyle. I enjoy combining new technologies to create new things. I strive to always learn and share new knowledge.
         </p>
@@ -69,15 +69,12 @@ function About() {
         <h1 className='about-tech'>
           My favorite tools
         </h1>
+
       </Container>
       <Container fluid>
         <ListGroup className="list-group list-group-horizontal">
           <ListGroup.Item className='col-md-2 list-group-item'>
-            <Nav.Link href="https://linkedin.com/in/klai01" rel="noopener noreferrer" target="_blank">
-
-
-              <Icon icon={reactIcon} className='about-icons' />
-            </Nav.Link>
+            <Icon icon={reactIcon} className='about-icons' />
           </ListGroup.Item>
           <ListGroup.Item className='col-md-2 list-group-item'>
             <Icon icon={javascriptIcon} className='about-icons' />
