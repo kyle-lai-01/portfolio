@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './More.css';
-import { Container, ListGroup, Row, Col } from 'react-bootstrap'
+import { Container, ListGroup } from 'react-bootstrap'
 import Emoji from './Emoji.js';
 
 function More() {
