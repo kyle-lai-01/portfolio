@@ -11,7 +11,7 @@ function OMaskl() {
       <Card.Body>
         <Card.Title className='title'>OMaskl</Card.Title>
         <Card.Text>
-          Intepreter, Evaluator, and Translator for a newly created language.
+          Intepreter, Evaluator, and Translator for the OMaskl language.
     </Card.Text>
         <Button href='https://github.com/kyle-lai-01/OMaskl' rel="noopener noreferrer" target="_blank" variant="outline-secondary">Github Source Code</Button>
         <div className='card-list'>

@@ -74,7 +74,7 @@ function More() {
             &nbsp; Calculus
           </ListGroup.Item>
           <ListGroup.Item className='col-md-12 list-group-item' style={{ textAlign: 'center' }}>
-            <Emoji symbol="🗠" label="market" style={{ width: '100%' }} />
+            <Emoji symbol="📈" label="market" style={{ width: '100%' }} />
             &nbsp; The markets
           </ListGroup.Item>
         </ListGroup>
