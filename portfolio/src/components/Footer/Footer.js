@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, ListGroup, Nav } from 'react-bootstrap';
 import './Footer.css';
-import { IconButton } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
@@ -16,43 +15,49 @@ function Footer() {
         <h1 className='footer-header'> <Emoji symbol="©️" label="copyright" style={{ width: '100%' }} /> Kyle Lai 2020</h1>
         <h1 className='footer-email'>kl655@cornell.edu</h1>
 
-        <ListGroup className="list-group list-group-horizontal">
-          <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
-            <Nav.Link href="https://github.com/kyle-lai-01" rel="noopener noreferrer" target="_blank">
-              <IconButton>
+        <Container fluid className='about-tech-container'>
+          <ListGroup className="list-group list-group-horizontal">
+            <ListGroup.Item className='col-md-4 list-group-item'>
+              <Nav.Link href="https://github.com/kyle-lai-01" rel="noopener noreferrer" target="_blank">
+
                 <GitHubIcon
                   style={{
-                    fontSize: '50',
-                    color: 'black'
+                    fontSize: '5rem',
+                    color: 'black',
+                    width: '100%'
                   }} />
-              </IconButton>
 
-            </Nav.Link>
-          </ListGroup.Item>
-          <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
-            <Nav.Link href="https://linkedin.com/in/klai01" rel="noopener noreferrer" target="_blank">
-              <IconButton>
+              </Nav.Link>
+            </ListGroup.Item>
+            <ListGroup.Item className='col-md-4 list-group-item'>
+              <Nav.Link href="https://linkedin.com/in/klai01" rel="noopener noreferrer" target="_blank">
+
                 <LinkedInIcon
                   style={{
-                    fontSize: '50',
-                    color: '#0077B5'
+                    fontSize: '5rem',
+                    color: '#0077B5',
+                    width: '100%'
                   }} />
-              </IconButton>
 
-            </Nav.Link>
-          </ListGroup.Item>
-          <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
-            <Nav.Link href={Resume} download='KyleLaiResume.pdf' rel="noopener noreferrer" target="_blank">
-              <IconButton>
+
+              </Nav.Link>
+            </ListGroup.Item>
+            <ListGroup.Item className='col-md-4 list-group-item'>
+              <Nav.Link href={Resume} download='KyleLaiResume.pdf' rel="noopener noreferrer" target="_blank">
+
                 <FileCopyIcon
                   style={{
-                    fontSize: '50',
-                    color: '#0B6623'
+                    fontSize: '5rem',
+                    color: '#0B6623',
+                    width: '100%'
                   }} />
-              </IconButton>
-            </Nav.Link>
-          </ListGroup.Item>
-        </ListGroup>
+
+
+              </Nav.Link>
+            </ListGroup.Item>
+
+          </ListGroup>
+        </Container>
       </Container>
 
     </div>

@@ -21,7 +21,6 @@ function BudgetTracker() {
           <Badge pill className='card-list-item' variant='primary'>Flask</Badge>
           <Badge pill className='card-list-item' variant='primary'>ES6</Badge>
           <Badge pill className='card-list-item' variant='primary'>Python</Badge>
-          <Badge pill className='card-list-item' variant='primary'>NodeJS</Badge>
         </div>
       </Card.Body>
     </Card>

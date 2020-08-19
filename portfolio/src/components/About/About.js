@@ -6,11 +6,10 @@ import { Icon } from '@iconify/react';
 import reactIcon from '@iconify/icons-logos/react';
 import javascriptIcon from '@iconify/icons-logos/javascript';
 import javaIcon from '@iconify/icons-logos/java';
-import nodejsIcon from '@iconify/icons-logos/nodejs';
+import pythonIcon from '@iconify/icons-logos/python';
 import flaskIcon from '@iconify/icons-logos/flask';
 import ocamlIcon from '@iconify/icons-logos/ocaml';
 import { Nav } from 'react-bootstrap';
-import { IconButton } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
@@ -47,46 +46,55 @@ function About() {
           Links
         </h1>
         <div style={{ backgroundColor: '#264195', height: '.2rem', width: '50%', margin: 'auto' }}></div>
+      </Container>
+
+
+      <Container fluid className='about-tech-container'>
         <ListGroup className="list-group list-group-horizontal">
-          <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
+          <ListGroup.Item className='col-md-4 list-group-item'>
             <Nav.Link href="https://github.com/kyle-lai-01" rel="noopener noreferrer" target="_blank">
-              <IconButton>
-                <GitHubIcon
-                  style={{
-                    fontSize: '100',
-                    color: 'black'
-                  }} />
-              </IconButton>
-              <p className='link-caption'>Github</p>
+
+              <GitHubIcon
+                style={{
+                  fontSize: '5rem',
+                  color: 'black',
+                  width: '100%'
+                }} />
+
             </Nav.Link>
           </ListGroup.Item>
-          <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
+          <ListGroup.Item className='col-md-4 list-group-item'>
             <Nav.Link href="https://linkedin.com/in/klai01" rel="noopener noreferrer" target="_blank">
-              <IconButton>
-                <LinkedInIcon
-                  style={{
-                    fontSize: '100',
-                    color: '#0077B5'
-                  }} />
-              </IconButton>
-              <p className='link-caption'>LinkedIn</p>
+
+              <LinkedInIcon
+                style={{
+                  fontSize: '5rem',
+                  color: '#0077B5',
+                  width: '100%'
+                }} />
+
+
             </Nav.Link>
           </ListGroup.Item>
-          <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
+          <ListGroup.Item className='col-md-4 list-group-item'>
             <Nav.Link href={Resume} download='KyleLaiResume.pdf' rel="noopener noreferrer" target="_blank">
-              <IconButton>
-                <FileCopyIcon
-                  style={{
-                    fontSize: '100',
-                    color: '#0B6623'
-                  }} />
-              </IconButton>
-              <p className='link-caption'>Resume</p>
+
+              <FileCopyIcon
+                style={{
+                  fontSize: '5rem',
+                  color: '#0B6623',
+                  width: '100%'
+                }} />
+
+
             </Nav.Link>
           </ListGroup.Item>
+
         </ListGroup>
+      </Container>
 
 
+      <Container className='h1 about-container'>
         <h1 className='about-tech'>
           My favorite tools
         </h1>
@@ -107,7 +115,7 @@ function About() {
             <Icon icon={ocamlIcon} className='about-icons' />
           </ListGroup.Item>
           <ListGroup.Item className='col-md-2 list-group-item'>
-            <Icon icon={nodejsIcon} className='about-icons' />
+            <Icon icon={pythonIcon} className='about-icons' />
           </ListGroup.Item>
           <ListGroup.Item className='col-md-2 list-group-item'>
             <Icon icon={flaskIcon} className='about-icons' />

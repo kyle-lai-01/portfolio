@@ -17,7 +17,7 @@ function Projects() {
         </p>
       </Container>
       <Container fluid className='project-showcase'>
-        <ListGroup className="list-group list-group-horizontal">
+        <ListGroup className="list-group list-group-horizontal-md">
           <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center', margin: 'auto' }}>
             <MediaRec />
           </ListGroup.Item>

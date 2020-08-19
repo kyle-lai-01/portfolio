@@ -4,7 +4,9 @@
 
 .experience-heading {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   font-size: 4rem;
   margin: 2rem;
 }
