@@ -1,0 +1,19 @@
+.footer-container {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+
+}
+
+
+.footer-header {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.footer-email {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+}

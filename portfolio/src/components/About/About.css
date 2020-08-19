@@ -12,15 +12,23 @@
 
 .about-intro {
   margin-top: 5rem;
-  margin-bottom: 5rem;
+
 }
 
+.about-education {
+  margin-top: 2rem;
+}
+
+.about-sub {
+  font-size: 2rem;
+}
 
 .about-tech {
   text-align: center;
-  margin-top: 10rem;
-  margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
   font-size: 3rem;
+  font-family: 'Roboto'
 }
 
 .link-caption {
@@ -37,4 +45,8 @@
   width: 100%;
   font-size: 10rem;
 
+}
+
+.about-tech-container {
+  margin-top: 2rem;
 }

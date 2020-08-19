@@ -3,8 +3,6 @@
   background-color: white;
   width: 100%;
   position: absolute;
-  min-height: 10000px;
-
 }
 
 .about-section {
@@ -19,4 +17,56 @@
   width: 100%;
   margin-top: 10rem;
   margin-bottom: 5rem;
+}
+
+.experience-section {
+  background-color: white;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.more-section {
+  background-color: #264195;
+  width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.arrow{
+  top: 80vh;
+  color: white;
+  right: 46%
+}
+
+.arrowdiv {
+  animation: cssAnimation 0s 5s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
+
+.arrowdiv {
+  width: 100%;
+  text-align: center;
+}
+
+.box {
+  align-self: flex-end;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin: 0 auto 0 auto;
+  transform-origin: bottom;
+  width: 200px;
+}
+.bounce-2 {
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+}
+@keyframes bounce-2 {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-100px); }
+  100% { transform: translateY(0); }
 }

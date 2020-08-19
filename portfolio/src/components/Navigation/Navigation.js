@@ -13,9 +13,11 @@ function Navigation() {
     <Navbar style={{ backgroundColor: '#264195', borderBottom: 'solid' }} variant="dark" fixed="top">
       <Navbar.Brand href="#home" style={{ fontSize: '1.5rem' }}>Kyle Lai</Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link href="#" style={{ fontSize: '1.5rem' }}>Home</Nav.Link>
-        <Nav.Link href="#" style={{ fontSize: '1.5rem' }}>About</Nav.Link>
-        <Nav.Link href="#" style={{ fontSize: '1.5rem' }}>Projects</Nav.Link>
+        <Nav.Link href="#Home" style={{ fontSize: '1.5rem' }}>Home</Nav.Link>
+        <Nav.Link href="#About" style={{ fontSize: '1.5rem' }}>About</Nav.Link>
+        <Nav.Link href="#Projects" style={{ fontSize: '1.5rem' }}>Projects</Nav.Link>
+        <Nav.Link href="#Experience" style={{ fontSize: '1.5rem' }}>Experience</Nav.Link>
+        <Nav.Link href="#More" style={{ fontSize: '1.5rem' }}>More</Nav.Link>
       </Nav>
 
       <Nav.Link href="https://github.com/kyle-lai-01" rel="noopener noreferrer" target="_blank">

@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Projects.css';
-import { Container, Row, ListGroup, Nav } from 'react-bootstrap'
+import { Container, ListGroup } from 'react-bootstrap'
 import MediaRec from './Cards/MediaRec.js'
 import BudgetTracker from './Cards/BudgetTracker.js'
 import OMaskl from './Cards/OMaskl.js'
@@ -16,10 +16,8 @@ function Projects() {
           Here are some of my recent projects.
         </p>
       </Container>
-      <Container fluid>
-
-
-        <ListGroup className="list-group list-group-horizontal project-showcase">
+      <Container fluid className='project-showcase'>
+        <ListGroup className="list-group list-group-horizontal">
           <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center', margin: 'auto' }}>
             <MediaRec />
           </ListGroup.Item>

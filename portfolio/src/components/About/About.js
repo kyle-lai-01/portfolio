@@ -22,13 +22,31 @@ function About() {
     <div>
       <Container className='h1 about-container'>
         <h1 className='about-heading'>About</h1>
-        <div style={{ backgroundColor: 'black', height: '.2rem' }}></div>
-        <p className='about-intro'>
+        <div style={{ backgroundColor: '#264195', height: '.2rem' }}></div>
+        <p className='about-intro about-text'>
           Hi, I'm Kyle. I enjoy combining new technologies to create new things. I strive to always learn and share new knowledge.
         </p>
-        <p>
+        <p className='about-sub'>
           Contact me at kl655@cornell.edu
-        </p> <br />
+        </p>
+        <h1 className='about-tech'>
+          Education
+        </h1>
+        <div style={{ backgroundColor: '#264195', height: '.2rem', width: '50%', margin: 'auto' }}></div>
+        <p className='about-education'>
+          Cornell University, Ithaca, NY
+        </p>
+        <p className='about-sub'>
+          College of Engineering, May 2023
+        </p>
+        <p className='about-sub'>
+          BS in Computer Science
+        </p>
+
+        <h1 className='about-tech'>
+          Links
+        </h1>
+        <div style={{ backgroundColor: '#264195', height: '.2rem', width: '50%', margin: 'auto' }}></div>
         <ListGroup className="list-group list-group-horizontal">
           <ListGroup.Item className='col-md-4 list-group-item' style={{ textAlign: 'center' }}>
             <Nav.Link href="https://github.com/kyle-lai-01" rel="noopener noreferrer" target="_blank">
@@ -72,9 +90,9 @@ function About() {
         <h1 className='about-tech'>
           My favorite tools
         </h1>
-
+        <div style={{ backgroundColor: '#264195', height: '.2rem', width: '50%', margin: 'auto' }}></div>
       </Container>
-      <Container fluid>
+      <Container fluid className='about-tech-container'>
         <ListGroup className="list-group list-group-horizontal">
           <ListGroup.Item className='col-md-2 list-group-item'>
             <Icon icon={reactIcon} className='about-icons' />

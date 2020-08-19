@@ -1,11 +1,9 @@
 import React from 'react';
 import Terminal from 'react-animated-term'
 import 'react-animated-term/dist/react-animated-term.css'
-import { ListItemSecondaryAction } from '@material-ui/core';
 
 function TerminalScreen() {
   const spinner = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦']
-  const load = ['.', ' ']
   const termLines = [
     {
       text: 'npm start',
