@@ -52,67 +52,30 @@ function More() {
         <h1 className='more-topic'>
           Ask me about ...
         </h1>
-        {/* <div style={{ backgroundColor: 'white', height: '.2rem', width: '50%', margin: 'auto' }}></div> */}
         <ListGroup className="list-group interest-list">
-          <ListGroup.Item className='col-md-12 list-group-item'>
-            <Row>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                <Emoji symbol="✈️" label="aviation" style={{ width: '100%' }} />
-              </Col>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                Aviation
-              </Col>
-            </Row>
+          <ListGroup.Item className='col-md-12 list-group-item' style={{ textAlign: 'center' }}>
+            <Emoji symbol="✈️" label="aviation" style={{ width: '100%' }} />
+                &nbsp; Aviation
           </ListGroup.Item>
-          <ListGroup.Item className='col-md-12 list-group-item'>
-            <Row>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                <Emoji symbol="⛷️" label="skiing" style={{ width: '100%' }} />
-              </Col>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                Skiing
-              </Col>
-            </Row>
+          <ListGroup.Item className='col-md-12 list-group-item' style={{ textAlign: 'center' }}>
+            <Emoji symbol="⛷️" label="skiing" style={{ width: '100%' }} />
+            &nbsp; Skiing
           </ListGroup.Item>
-          <ListGroup.Item className='col-md-12 list-group-item'>
-            <Row>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                <Emoji symbol="🎸" label="guitar" style={{ width: '100%' }} />
-              </Col>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                Guitar
-              </Col>
-            </Row>
+          <ListGroup.Item className='col-md-12 list-group-item' style={{ textAlign: 'center' }}>
+            <Emoji symbol="🎸" label="guitar" style={{ width: '100%' }} />
+            &nbsp; Guitar
           </ListGroup.Item>
-          <ListGroup.Item className='col-md-12 list-group-item'>
-            <Row>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                <Emoji symbol="🍷" label="wine" style={{ width: '100%' }} />
-              </Col>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                Viticulture
-              </Col>
-            </Row>
+          <ListGroup.Item className='col-md-12 list-group-item' style={{ textAlign: 'center' }}>
+            <Emoji symbol="🍷" label="wine" style={{ width: '100%' }} />
+                 &nbsp; Viticulture
           </ListGroup.Item>
-          <ListGroup.Item className='col-md-12 list-group-item'>
-            <Row>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                <Emoji symbol="➕" label="math" style={{ width: '100%' }} />
-              </Col>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                Calculus
-              </Col>
-            </Row>
+          <ListGroup.Item className='col-md-12 list-group-item' style={{ textAlign: 'center' }}>
+            <Emoji symbol="➕" label="math" style={{ width: '100%' }} />
+            &nbsp; Calculus
           </ListGroup.Item>
-          <ListGroup.Item className='col-md-12 list-group-item'>
-            <Row>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                <Emoji symbol="🗠" label="market" style={{ width: '100%' }} />
-              </Col>
-              <Col className='col-md-6' style={{ textAlign: 'center' }}>
-                The markets
-              </Col>
-            </Row>
+          <ListGroup.Item className='col-md-12 list-group-item' style={{ textAlign: 'center' }}>
+            <Emoji symbol="🗠" label="market" style={{ width: '100%' }} />
+            &nbsp; The markets
           </ListGroup.Item>
         </ListGroup>
       </Container>
