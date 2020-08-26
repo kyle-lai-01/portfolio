@@ -13,7 +13,7 @@ function BudgetTracker() {
         <Card.Text>
           Track budget and expenses in easy to use display.
     </Card.Text>
-        <Button href='https://github.com/henryli6/Budget-Tracker' rel="noopener noreferrer" target="_blank" variant="outline-secondary">Github Source Code</Button>
+        <Button href='https://github.com/henry-li-06/Budget-Tracker' rel="noopener noreferrer" target="_blank" variant="outline-secondary">Github Source Code</Button>
 
         <div className='card-list'>
           <Badge pill className='card-list-item' variant='primary'>HTML/CSS</Badge>
