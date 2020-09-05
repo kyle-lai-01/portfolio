@@ -23,7 +23,7 @@ function About() {
         <h1 className='about-heading'>About</h1>
         <div style={{ backgroundColor: '#264195', height: '.2rem' }}></div>
         <p className='about-intro about-text'>
-          Hi, I'm Kyle. I enjoy combining new technologies to create new things. I strive to always learn and share new knowledge.
+          Hi, I'm Kyle. I enjoy learning new technologies to create things that anyone can use.
         </p>
         <p className='about-sub'>
           Contact me at kl655@cornell.edu

@@ -11,21 +11,12 @@ function More() {
         <h1 className='more-heading'>Learn more about me below!</h1>
         <div style={{ backgroundColor: 'white', height: '.2rem' }}></div>
 
-        <h1 className='more-topic'>
-          Languages
-        </h1>
-        <div style={{ backgroundColor: 'white', height: '.2rem', width: '50%', margin: 'auto', marginBottom: '2rem' }}></div>
-        <p className='more-language'>
-          English
-        </p>
-        <p className='more-language'>
-          Cantonese
-        </p>
+        
 
         <h1 className='more-topic'>
           Coursework
         </h1>
-        <div style={{ backgroundColor: 'white', height: '.2rem', width: '50%', margin: 'auto', marginBottom: '2rem' }}></div>
+       
         <p className='more-coursework'>
           CS 2110 OOP and Data Structures
         </p>
@@ -34,9 +25,6 @@ function More() {
         </p>
         <p className='more-coursework'>
           CS 3110 Functional Programming
-        </p>
-        <p className='more-coursework'>
-          CS 4320 Databases
         </p>
         <p className='more-coursework'>
           CS 4820 Intro to Analysis of Algorithms

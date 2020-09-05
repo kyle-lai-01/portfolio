@@ -20,7 +20,7 @@ function App() {
       </div>
 
       <div class="arrowdiv">
-        <img src={ArrowImage} alt="Scroll down" className='arrow box bounce-2' style={{ position: 'fixed', width: '10rem' }} />
+        <img src={ArrowImage} alt="Scroll down" className='arrow box bounce-2' style={{ position: 'fixed', width: '6rem' }} />
       </div>
 
       <div id={'Home'}></div>

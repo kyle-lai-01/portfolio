@@ -8,7 +8,7 @@ function Experience() {
   return (
     <div>
       <Container className='h1 experience-container'>
-        <h1 className='experience-heading'>Experience</h1>
+        <h1 className='experience-heading'>Extracurriculars</h1>
         <div style={{ backgroundColor: '#264195', height: '.2rem', marginBottom: '2rem' }}></div>
         <Nav.Link href='https://cuair.org/' rel="noopener noreferrer" target="_blank" style={{ decoration: 'none', color: 'black' }}>
           <p className='experience-title'>
